@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 class ArbitrageOpportunity(models.Model):
     event_name = models.CharField(max_length=20)
@@ -11,6 +12,9 @@ class ArbitrageOpportunity(models.Model):
     site_one_link = models.URLField(max_length=255)
     site_two_name = models.CharField(max_length=50)
     site_two_link = models.URLField(max_length=255)
+    found = models.DateTimeField(default=timezone.now)
+    active = models.BooleanField(default=True)
+    ended = models.DateTimeField(null=True, blank=True)
 
     def save(self, *args, **kwargs):
         super().save(*args, **kwargs)

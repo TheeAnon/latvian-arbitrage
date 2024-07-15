@@ -1,8 +1,10 @@
 from django.core.management.base import BaseCommand
-import requests
+from arbitrage.models import ArbitrageOpportunity
+from arbitrage.serializers import ArbitrageOpportunitySerializer
 from datetime import datetime
 from decimal import Decimal
-from arbitrage.models import ArbitrageOpportunity
+from django.utils import timezone
+import requests
 
 class Command(BaseCommand):
     help = 'Fetches data from APIs and calculates arbitrage opportunities'
@@ -14,7 +16,6 @@ class Command(BaseCommand):
         calculate_arbitrage(tonybet_data, x3000_data)
         calculate_arbitrage(casino777_data, x3000_data)
         calculate_arbitrage(tonybet_data, casino777_data)
-
         self.stdout.write(self.style.SUCCESS('Arbitrage calculation complete.'))
 
 def fetch_tonybet():
@@ -53,51 +54,48 @@ def fetch_tonybet():
         data = response.json()
 
         if data['status'] == 'ok' and 'data' in data:
-            for event in data['data']['items']:
-                event_id = event["id"]
-                league_id = event["leagueId"]
-                home_team_id = event["competitor1Id"]
-                away_team_id = event["competitor2Id"]
-                date = event["time"]
+            try:
+                for event in data['data']['items']:
+                    event_id = event["id"]
+                    league_id = event["leagueId"]
+                    home_team_id = event["competitor1Id"]
+                    away_team_id = event["competitor2Id"]
+                    date = event["time"]
 
-                # Extracting odds
-                odds = []
-                if str(event_id) in data['data']['relations']['odds']:
-                    for outcomes in data['data']['relations']['odds'][str(event_id)]:
-                        if outcomes["id"] == 910:
-                            for outcome in outcomes["outcomes"]:
-                                odds.append(outcome["odds"])
+                    # Extracting odds
+                    odds = []
+                    if str(event_id) in data['data']['relations']['odds']:
+                        for outcomes in data['data']['relations']['odds'][str(event_id)]:
+                            if outcomes["id"] == 910:
+                                for outcome in outcomes["outcomes"]:
+                                    odds.append(outcome["odds"])
 
-                # Getting event name from league relations
-                event_name = ""
-                for league in data['data']['relations']['league']:
-                    if league["id"] == league_id:
-                        event_name = league["name"]
+                    # Getting team names from competitors relations
+                    home_team = away_team = ""
+                    for competitor in data['data']['relations']['competitors']:
+                        if competitor["id"] == home_team_id:
+                            home_team = competitor["name"]
+                        if competitor["id"] == away_team_id:
+                            away_team = competitor["name"]
 
-                # Getting team names from competitors relations
-                home_team = away_team = ""
-                for competitor in data['data']['relations']['competitors']:
-                    if competitor["id"] == home_team_id:
-                        home_team = competitor["name"]
-                    if competitor["id"] == away_team_id:
-                        away_team = competitor["name"]
+                    # Getting category name from sportCategories relations
+                    category = ""
+                    for sport_category in data['data']['relations']['sportCategories']:
+                        if sport_category["id"] == event["sportCategoryId"]:
+                            category = sport_category["name"]
 
-                # Getting category name from sportCategories relations
-                category = ""
-                for sport_category in data['data']['relations']['sportCategories']:
-                    if sport_category["id"] == event["sportCategoryId"]:
-                        category = sport_category["name"]
-
-                # Append event data
-                if odds and len(odds) >= 2:
-                    events.append({
-                        'category': category,
-                        'name': f"{home_team} vs. {away_team}",
-                        'date': date,
-                        'odds': odds,
-                        'site_name': "tonybet",
-                        'site_link': "https://tonybet.lv"
-                    })
+                    # Append event data
+                    if odds and len(odds) >= 2:
+                        events.append({
+                            'category': category,
+                            'name': f"{home_team} vs. {away_team}",
+                            'date': date,
+                            'odds': odds,
+                            'site_name': "tonybet",
+                            'site_link': "https://tonybet.lv"
+                        })
+            except Exception:
+                continue
 
     return events
 
@@ -387,11 +385,53 @@ def fractional_to_decimal(fractional_odds):
 
 
 def post_arbitrage(data):
-    url = "http://localhost:8000/post_arbitrage/"
     try:
-        response = requests.post(url, json=data)
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.RequestException as e:
+        competitors = data["competitors"]
+        site_one_name = data["site_one_name"]
+        site_two_name = data["site_two_name"]
+        market = data["market"]
+        site_one_odds = data["site_one_odds"]
+        site_two_odds = data["site_two_odds"]
+        sides = data["sides"]
+
+        # Mark all existing entries in the database as inactive and set their ended timestamp
+        existing_entries = ArbitrageOpportunity.objects.filter(active=True)
+        for entry in existing_entries:
+            entry.active = False
+            entry.ended = timezone.now()
+            entry.save()
+
+        # Check if the new entry already exists in the database
+        try:
+            existing_entry = ArbitrageOpportunity.objects.get(
+                competitors=competitors,
+                site_one_name=site_one_name,
+                site_two_name=site_two_name,
+                market=market
+            )
+
+            # If the existing entry is found and it was inactive, make it active again
+            if not existing_entry.active:
+                existing_entry.active = True
+                existing_entry.ended = None
+
+            # Update the odds and sides
+            existing_entry.site_one_odds = site_one_odds
+            existing_entry.site_two_odds = site_two_odds
+            existing_entry.sides = sides
+
+            serializer = ArbitrageOpportunitySerializer(existing_entry, data=data)
+            if serializer.is_valid():
+                serializer.save()
+                return serializer.data
+            return None
+        except ArbitrageOpportunity.DoesNotExist:
+            # If the entry does not exist, create a new entry
+            serializer = ArbitrageOpportunitySerializer(data=data)
+            if serializer.is_valid():
+                serializer.save()
+                return serializer.data
+            return None
+    except Exception as e:
         print(f"Error posting data: {e}")
         return None
