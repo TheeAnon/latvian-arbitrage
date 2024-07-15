@@ -62,6 +62,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     env('CLIENT_URL'),
+    env('SERVER_URL'),
 ]
 
 ROOT_URLCONF = 'server.urls'
