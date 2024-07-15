@@ -10,7 +10,7 @@ services:
     name: latvian-arbitrage
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn -k uvicorn.workers.UvicornWorker server.asgi:application"
+    startCommand: "python -m gunicorn server.asgi:application -k uvicorn.workers.UvicornWorker"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
