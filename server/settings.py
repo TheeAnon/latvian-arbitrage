@@ -30,8 +30,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = [env('ALLOWED_HOST')]
-
+ALLOWED_HOSTS = [env('ALLOWED_HOST'), env('ALLOWED_HOST2')]
 
 # Application definition
 
@@ -44,9 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-    'tennis',
     'arbitrage',
-    'django_crontab',
 ]
 
 MIDDLEWARE = [
@@ -61,10 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    env('CLIENT_URL'),
-]
-
+CORS_ALLOWED_ORIGINS = [env('CLIENT_URL2')]
 
 ROOT_URLCONF = 'server.urls'
 
@@ -90,10 +84,21 @@ WSGI_APPLICATION = 'server.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-import dj_database_url
+# import dj_database_url
+
+# DATABASES = {
+#     'default': dj_database_url.config(default=env('DATABASE_URL'), conn_max_age=600)
+# }
 
 DATABASES = {
-    'default': dj_database_url.config(default=env('DATABASE_URL'), conn_max_age=600)
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': env('DB_NAME'),
+        'USER': env('DB_USER'),
+        'PASSWORD': env('DB_PASSWORD'),
+        'HOST':env('DB_HOST'),
+        'PORT':env('DB_PORT'),
+    }
 }
 
 # Password validation
@@ -133,33 +138,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-if not DEBUG:
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# if not DEBUG:
+#     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-CRONJOBS = [
-    ('*/0.1 * * * *', 'django.core.management.call_command', ['calculate_arbitrage']),
-]
-
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': os.path.join(BASE_DIR, 'cronjob.log'),
-        },
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['file'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-    },
-}
