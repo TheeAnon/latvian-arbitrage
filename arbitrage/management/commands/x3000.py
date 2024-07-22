@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 
 
 def x3000_tennis():
@@ -22,6 +23,9 @@ def x3000_tennis():
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/challenger/salzburg/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948278982&useCombined=true&useCombinedLive=true',
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/challenger/iasi/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948264556&useCombined=true&useCombinedLive=true',
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/atp_qual_/newport/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948410647&useCombined=true&useCombinedLive=true',
+        'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/atp_qual_/umag/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=3&ncid=1721565437609&useCombined=true&useCombinedLive=true',
+        'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/atp_qual_/atlanta/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=3&ncid=1721565422914&useCombined=true&useCombinedLive=true',
+        'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/itf_women_qual_/nakhon_si_thammarat/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948880739&useCombined=true&useCombinedLive=true',
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/atp_qual_/hamburg/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948403341&useCombined=true&useCombinedLive=true',
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/atp_qual_/gstaad/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948395391&useCombined=true&useCombinedLive=true',
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/atp_qual_/bastad/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948370392&useCombined=true&useCombinedLive=true',
@@ -51,50 +55,59 @@ def x3000_tennis():
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/wta_doubles/bastad/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948909499&useCombined=true&useCombinedLive=true',
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/itf_women_qual_/vitoria-gasteiz/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948901548&useCombined=true&useCombinedLive=true',
         'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/itf_women_qual_/nottingham/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948890694&useCombined=true&useCombinedLive=true',
-        'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/itf_women_qual_/nakhon_si_thammarat/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948880739&useCombined=true&useCombinedLive=true'
+        'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/itf_women_qual_/nakhon_si_thammarat/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948880739&useCombined=true&useCombinedLive=true',
+        'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/atp/atlanta/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=3&ncid=1721630137933&useCombined=true&useCombinedLive=true',
+        'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/grand_slam/wimbledon_mixed_doubles/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720947882122&useCombined=true&useCombinedLive=true',
+        'https://eu-offering-api.kambicdn.com/offering/v2018/pafx3lv/listView/tennis/atp/gstaad/all/matches.json?lang=en_GB&market=LV&client_id=2&channel_id=1&ncid=1720948056228&useCombined=true&useCombinedLive=true'
     ]
     events = []
 
     for url in urls:
-        response = requests.get(url)
-        data = response.json()
+        try:
+            response = requests.get(url)
+            data = response.json()
 
-        for event in data["events"]:
-            competitors = f"{event["event"]["homeName"]} vs. {event["event"]["awayName"]}"
-            date = event["event"]["start"]
-            category = event["event"]["path"][1]["englishName"]
-            odds = []
-            for bet_offer in event["betOffers"]:
-                if bet_offer["betOfferType"]["id"] == 2:
-                    for outcome in bet_offer["outcomes"]:
-                        try:
-                            decimal_odds = fractional_to_decimal(outcome["oddsFractional"])
-                            if decimal_odds is not None:
-                                odds.append(decimal_odds)
-                        except Exception:
-                            continue
+            data = data.get("events") or data.get("liveEvents")
+            # If events is None or empty, skip to the next iteration
+            if not data:
+                continue
 
-            # Append event data
-            if odds and len(odds) >= 2:
-                events.append({
-                    'category': category,
-                    'competitors': competitors,
-                    'date': date,
-                    'odds': odds,
-                    'site_name': site_name,
-                    'site_link': site_link
-                })
+            for event in data:
+                try:
+                    competitors = f"{event["event"]["homeName"]} vs. {event["event"]["awayName"]}"
+                    date = datetime.strptime(event["event"]["start"], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d %H:%M:%S")
+                    category = event["event"]["path"][1]["englishName"]
+                    bet_offers = []
+                    for bet_offer in event["betOffers"]:
+                        odds = []
+                        odds_value = []
+                        bet_type = "Winner" if bet_offer["criterion"]["label"] == "Match Odds" else bet_offer["criterion"]["label"]
+                        for outcome in bet_offer["outcomes"]:
+                            odds.append(outcome["odds"]/1000)
+                            odds_value.append(outcome.get("line")/1000 if outcome.get("line") else "")
+                        bet_offers.append({
+                            "bet_type": bet_type,
+                            "odds": odds,
+                            "odds_value": odds_value
+                        })
+                    # Append event data
+                    if len(bet_offers) > 1:
+                        events.append({
+                            'category': category,
+                            'competitors': competitors,
+                            'date': date,
+                            'bet_offers': bet_offers,
+                            'site_name': site_name,
+                            'site_link': site_link
+                        })
+
+                except Exception as e:
+                    # print(f"Error looping match: {e}")
+                    continue
+        except Exception as e:
+            print(f"Error looping {site_name} url ({url}): {e}")
+            continue
 
     return events
 
-
-def fractional_to_decimal(fractional_odds):
-    try:
-        numerator, denominator = map(int, fractional_odds.split('/'))
-        decimal_odds = (numerator / denominator) + 1
-        return decimal_odds
-    except Exception as e:
-        print(f"Could not convert odds: {e}")
-        return None
-    
 # print(x3000_tennis())

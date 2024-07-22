@@ -58,8 +58,8 @@ def casino777_tennis():
     ]
     events = []
 
-    try:
-        for url in urls:
+    for url in urls:
+        try:
             response = requests.get(url)
             data = response.json()
 
@@ -71,25 +71,33 @@ def casino777_tennis():
                         date = datetime.strptime(event["EventDate"], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d %H:%M:%S")
                         # is_live = event["IsLiveEvent"]
                         # live_current_time = event["LiveCurrentTime"] if is_live else None
-                        market = "winner"
-                        odds = []
+                        bet_offers = []
                         for market in event['Items']:
-                            if market['Name'] == 'Winner':
-                                for selection in market['Items']:
-                                    odds.append(selection["Price"])
-                        if len(odds) > 1:
+                            odds = []
+                            odds_value = []
+                            bet_type = market['Name']
+                            for selection in market['Items']:
+                                odds.append(selection["Price"])
+                                odds_value.append(selection["Name"])
+                            bet_offers.append({
+                                "bet_type": bet_type,
+                                "odds": odds,
+                                "odds_value": odds_value
+                            })
+                        if len(bet_offers) > 1:
                             events.append({
                                 'category': event_name,
                                 'competitors': competitors,
                                 'date': date,
                                 # 'is_live': is_live,
                                 # 'live_current_time': live_current_time,
-                                'odds': odds,
+                                'bet_offers': bet_offers,
                                 'site_name': site_name,
                                 'site_link': site_link
                             })
-    except Exception:
-        return events
+        except Exception as e:
+            print(f"Error looping {site_name} url ({url}): {e}")
+            continue
 
     return events
 

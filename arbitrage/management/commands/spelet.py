@@ -87,11 +87,24 @@ def spelet_tennis():
 
             for item in data['Value']:
                 event_name = item["L"]
-                competitors = f"{item["O1"].replace('/', ', ')} vs. {item["O2"].replace('/', ', ')}"
+                competitors = f"{item["O1"]} vs. {item["O2"]}"
                 date = datetime.fromtimestamp(item["S"]).strftime('%Y-%m-%d %H:%M:%S')
-                odds = []
+                bet_offers = []
                 for selection in item['E']:
-                    odds.append(selection["C"])
+                    odds = []
+                    odds_value = []
+                    if selection["G"] == 1:
+                        odds.append(selection["C"])
+                        bet_type = "Winner"
+                    if selection.get("P"):
+                        if selection["G"] == 2:
+                            odds.append(selection["C"])
+                            odds_value.append(selection["P"])
+                            bet_type = "Game Handicap"
+                        if selection["G"] == 17:
+                            odds.append(selection["C"])
+                            odds_value.append(selection["P"])
+                            bet_type = "Total Games"
                 if len(odds) > 1:
                     events.append({
                         'category': event_name,
