@@ -76,8 +76,8 @@ def spelet_tennis():
     ]
     events = []
 
-    try:
-        for url in urls:
+    for url in urls:
+        try:
             response = requests.get(url)
             data = response.json()
 
@@ -90,35 +90,65 @@ def spelet_tennis():
                 competitors = f"{item["O1"]} vs. {item["O2"]}"
                 date = datetime.fromtimestamp(item["S"]).strftime('%Y-%m-%d %H:%M:%S')
                 bet_offers = []
-                for selection in item['E']:
-                    odds = []
-                    odds_value = []
-                    if selection["G"] == 1:
-                        odds.append(selection["C"])
-                        bet_type = "Winner"
-                    if selection.get("P"):
-                        if selection["G"] == 2:
-                            odds.append(selection["C"])
-                            odds_value.append(selection["P"])
-                            bet_type = "Game Handicap"
-                        if selection["G"] == 17:
-                            odds.append(selection["C"])
-                            odds_value.append(selection["P"])
-                            bet_type = "Total Games"
-                if len(odds) > 1:
+                if item.get("E"):
+                    bet_offers.append({
+                        "bet_type": "Winner",
+                        "odds": [item["E"][0]["C"], item["E"][1]["C"]],
+                        "odds_value": []
+                    })
+                for market in item["AE"]:
+                    if market["G"] == 2:
+                        handicap_odds = []
+                        handicap_odds_value = []
+                        for odds in market["ME"]:
+                            handicap_odds.append(odds["C"])
+                            handicap_odds_value.append(odds["P"])
+                        handicap_odds = group_into_pairs(handicap_odds)
+                        handicap_odds_value = group_into_pairs(handicap_odds_value)
+                        for index, handicap in enumerate(handicap_odds):
+                            bet_offers.append({
+                                "bet_type": "Game Handicap",
+                                "odds": handicap,
+                                "odds_value": handicap_odds_value[index]
+                            })
+                    if market["G"] == 17:
+                        total_games_odds = []
+                        total_games_odds_value = []
+                        for odds in market["ME"]:
+                            total_games_odds.append(odds["C"])
+                            total_games_odds_value.append(odds["P"])
+                        total_games_odds = group_into_pairs(total_games_odds)
+                        total_games_odds_value = group_into_pairs(total_games_odds_value)
+                        for index, total_games in enumerate(total_games_odds):
+                            bet_offers.append({
+                                "bet_type": "Total Games",
+                                "odds": total_games,
+                                "odds_value": total_games_odds_value[index]
+                            })
+                if len(bet_offers) > 1:
                     events.append({
                         'category': event_name,
                         'competitors': competitors,
                         'date': date,
                         # 'is_live': is_live,
                         # 'live_current_time': live_current_time,
-                        'odds': odds,
+                        'bet_offers': bet_offers,
                         'site_name': site_name,
                         'site_link': site_link
                     })
-    except Exception:
-        return events
+        except Exception as e:
+            print(f"Error looping {site_name} url ({url}): {e}")
+            continue
 
     return events
+
+
+def group_into_pairs(arr):
+    pairs = []
+    for i in range(0, len(arr), 2):
+        if i + 1 < len(arr):
+            pairs.append([arr[i], arr[i + 1]])
+    return pairs
+
 
 # print(spelet_tennis())

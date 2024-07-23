@@ -1,25 +1,13 @@
-[Mon 07/22/2024 13:30:01.10] Looking for arbitrages... 
-[Mon 07/22/2024 13:30:01.10] Running script... 
+[Mon 07/22/2024 15:14:57.18] Looking for arbitrages... 
+[Mon 07/22/2024 15:14:57.18] Running script... 
+[Mon 07/22/2024 15:24:08.61] Looking for arbitrages... 
+[Mon 07/22/2024 15:24:08.61] Running script... 
 Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=32074&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
 Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=3038&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
 Calculating arbitrage for casino777 and x3000
-0 opportunities found in 9 that matched
+0 opportunities found in 12 that matched
 Arbitrage calculation complete.
-[Mon 07/22/2024 13:31:47.27] Running script... 
-Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=32074&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
-Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=3038&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
-Calculating arbitrage for casino777 and x3000
-0 opportunities found in 9 that matched
-Arbitrage calculation complete.
-[Mon 07/22/2024 13:32:54.61] Running script... 
-Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=32074&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
-Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=3038&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
-Calculating arbitrage for casino777 and x3000
-0 opportunities found in 9 that matched
-Arbitrage calculation complete.
-[Mon 07/22/2024 13:34:02.32] Running script... 
-Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=32074&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
-Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=3038&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
+[Mon 07/22/2024 15:25:21.87] Running script... 
 Traceback (most recent call last):
   File "C:\japhe\latvian-arbitrage\server\manage.py", line 22, in <module>
     main()
@@ -34,10 +22,10 @@ Traceback (most recent call last):
   File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\django\core\management\base.py", line 459, in execute
     output = self.handle(*args, **options)
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\japhe\latvian-arbitrage\server\arbitrage\management\commands\calculate_arbitrage.py", line 20, in handle
-    x3000_data = x3000_tennis()
-                 ^^^^^^^^^^^^^^
-  File "C:\japhe\latvian-arbitrage\server\arbitrage\management\commands\x3000.py", line 67, in x3000_tennis
+  File "C:\japhe\latvian-arbitrage\server\arbitrage\management\commands\calculate_arbitrage.py", line 18, in handle
+    tonybet_data = tonybet_tennis()
+                   ^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\arbitrage\management\commands\tonybet.py", line 39, in tonybet_tennis
     response = requests.get(url)
                ^^^^^^^^^^^^^^^^^
   File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\requests\api.py", line 73, in get
@@ -58,17 +46,102 @@ Traceback (most recent call last):
   File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
     response = self._make_request(
                ^^^^^^^^^^^^^^^^^^^
-  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
-    self._validate_conn(conn)
-  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
-    conn.connect()
-  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connection.py", line 615, in connect
-    self.sock = sock = self._new_conn()
-                       ^^^^^^^^^^^^^^^^
-  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
-    sock = connection.create_connection(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
-    sock.connect(sa)
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C[Mon 07/22/2024 15:25:53.23] Looking for arbitrages... 
+[Mon 07/22/2024 15:25:53.23] Running script... 
+Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=32074&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
+Error looping casino777 url (https://sb2frontend-altenar2.biahosted.com/api/Sportsbook/GetEvents?timezoneOffset=-180&culture=en-GB&numFormat=en&integration=casino777&langId=8&skinName=casino777&configId=1&countryCode=LV&deviceType=Desktop&champids=3038&group=ChampsWithoutDates&withLive=false&filterSingleNodes=2&sportids=68&period=periodall&outrightsDisplay=Outrights): 'Events'
+Calculating arbitrage for casino777 and x3000
+0 opportunities found in 12 that matched
+Calculating arbitrage for casino777 and spelet
+0 opportunities found in 0 that matched
+Calculating arbitrage for x3000 and spelet
+0 opportunities found in 0 that matched
+Arbitrage calculation complete.
+[Mon 07/22/2024 15:27:05.49] Running script... 
+Traceback (most recent call last):
+  File "C:\japhe\latvian-arbitrage\server\manage.py", line 22, in <module>
+    main()
+  File "C:\japhe\latvian-arbitrage\server\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\django\core\management\base.py", line 413, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\django\core\management\base.py", line 459, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\arbitrage\management\commands\calculate_arbitrage.py", line 18, in handle
+    tonybet_data = tonybet_tennis()
+                   ^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\arbitrage\management\commands\tonybet.py", line 39, in tonybet_tennis
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\japhe\latvian-arbitrage\server\.venv\Lib\site-packages\urllib3\connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 KeyboardInterrupt
 ^C

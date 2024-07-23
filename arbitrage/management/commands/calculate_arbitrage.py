@@ -25,7 +25,7 @@ class Command(BaseCommand):
             # ('tonybet', tonybet_data),
             ('casino777', casino777_data),
             ('x3000', x3000_data),
-            # ('spelet', spelet_data),
+            ('spelet', spelet_data),
             # ('pafbet', pafbet_data)
         ]
 
@@ -51,7 +51,11 @@ def calculate_arbitrage(site_one_data, site_two_data):
                     matches += 1
                     for site_one_bet_offer in site_one_event["bet_offers"]:
                         for site_two_bet_offer in site_two_event["bet_offers"]:
-                            if site_one_bet_offer["bet_type"] == site_two_bet_offer["bet_type"]:
+                            if site_one_bet_offer["bet_type"].lower().strip() == site_two_bet_offer["bet_type"].lower().strip():
+                                if site_one_bet_offer["bet_type"] != "Winner":
+                                    if str(site_one_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') not in str(site_two_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') or str(site_two_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') not in str(site_one_bet_offer["odds_value"][0]).replace("+", '').replace("-",''):
+                                        continue
+                                print(f"matched bet type: {site_one_bet_offer} - {site_two_bet_offer}")
                                 site_one_odds1 = Decimal(site_one_bet_offer['odds'][0])
                                 site_one_odds2 = Decimal(site_one_bet_offer['odds'][1])
                                 site_two_odds1 = Decimal(site_two_bet_offer['odds'][0])

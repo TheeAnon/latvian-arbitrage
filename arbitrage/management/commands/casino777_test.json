@@ -1,162 +1,505 @@
-[
-  {
-    "category": "ATP",
-    "competitors": "Cazaux, Arthur vs. Davidovich Fokina, Alejandro",
-    "date": "2024-07-22 15:00:00",
-    "bet_offers": [
-      { "bet_type": "Winner", "odds": [2.06, 1.77], "odds_value": ["", ""] },
-      {
-        "bet_type": "Game Handicap",
-        "odds": [1.81, 1.98],
-        "odds_value": [1.5, -1.5]
-      },
-      {
-        "bet_type": "Total Games",
-        "odds": [1.81, 1.97],
-        "odds_value": [22.5, 22.5]
-      }
-    ],
-    "site_name": "x3000",
-    "site_link": "https://x3000.lv"
-  },
-  {
-    "category": "ATP",
-    "competitors": "Shapovalov, Denis vs. Goffin, David",
-    "date": "2024-07-22 17:40:00",
-    "bet_offers": [
-      { "bet_type": "Winner", "odds": [1.49, 2.63], "odds_value": ["", ""] },
-      {
-        "bet_type": "Game Handicap",
-        "odds": [1.8, 1.98],
-        "odds_value": [-2.5, 2.5]
-      },
-      {
-        "bet_type": "Total Games",
-        "odds": [1.85, 1.93],
-        "odds_value": [22.5, 22.5]
-      }
-    ],
-    "site_name": "x3000",
-    "site_link": "https://x3000.lv"
-  },
-  {
-    "category": "ATP",
-    "competitors": "O'Connell, Christopher vs. Purcell, Max",
-    "date": "2024-07-23 14:00:00",
-    "bet_offers": [
-      { "bet_type": "Winner", "odds": [2.3, 1.62], "odds_value": ["", ""] },
-      {
-        "bet_type": "Game Handicap",
-        "odds": [2.0, 1.79],
-        "odds_value": [1.5, -1.5]
-      },
-      {
-        "bet_type": "Total Games",
-        "odds": [1.98, 1.81],
-        "odds_value": [23.5, 23.5]
-      }
-    ],
-    "site_name": "x3000",
-    "site_link": "https://x3000.lv"
-  },
-  {
-    "category": "ATP",
-    "competitors": "Opelka, Reilly vs. Kovacevic, Aleksandar",
-    "date": "2024-07-23 14:00:00",
-    "bet_offers": [
-      { "bet_type": "Winner", "odds": [1.64, 2.25], "odds_value": ["", ""] },
-      {
-        "bet_type": "Game Handicap",
-        "odds": [1.92, 1.86],
-        "odds_value": [-1.5, 1.5]
-      },
-      {
-        "bet_type": "Total Games",
-        "odds": [1.76, 2.04],
-        "odds_value": [25.5, 25.5]
-      }
-    ],
-    "site_name": "x3000",
-    "site_link": "https://x3000.lv"
-  },
-  {
-    "category": "ATP",
-    "competitors": "Rinderknech, Arthur vs. Lestienne, Constant",
-    "date": "2024-07-23 14:00:00",
-    "bet_offers": [
-      { "bet_type": "Winner", "odds": [1.58, 2.38], "odds_value": ["", ""] },
-      {
-        "bet_type": "Game Handicap",
-        "odds": [1.75, 2.05],
-        "odds_value": [-1.5, 1.5]
-      },
-      {
-        "bet_type": "Total Games",
-        "odds": [2.02, 1.77],
-        "odds_value": [23.5, 23.5]
-      }
-    ],
-    "site_name": "x3000",
-    "site_link": "https://x3000.lv"
-  },
-  {
-    "category": "ATP",
-    "competitors": "Kokkinakis, Thanasi vs. Coric, Borna",
-    "date": "2024-07-23 14:00:00",
-    "bet_offers": [
-      { "bet_type": "Winner", "odds": [1.72, 2.14], "odds_value": ["", ""] },
-      {
-        "bet_type": "Game Handicap",
-        "odds": [1.92, 1.86],
-        "odds_value": [-1.5, 1.5]
-      },
-      {
-        "bet_type": "Total Games",
-        "odds": [1.98, 1.8],
-        "odds_value": [23.5, 23.5]
-      }
-    ],
-    "site_name": "x3000",
-    "site_link": "https://x3000.lv"
-  },
-  {
-    "category": "ATP",
-    "competitors": "Nakashima, Brandon vs. McDonald, Mackenzie",
-    "date": "2024-07-23 14:00:00",
-    "bet_offers": [
-      { "bet_type": "Winner", "odds": [1.53, 2.5], "odds_value": ["", ""] },
-      {
-        "bet_type": "Game Handicap",
-        "odds": [1.84, 1.94],
-        "odds_value": [-2.5, 2.5]
-      },
-      {
-        "bet_type": "Total Games",
-        "odds": [2.02, 1.76],
-        "odds_value": [23.5, 23.5]
-      }
-    ],
-    "site_name": "x3000",
-    "site_link": "https://x3000.lv"
-  },
-  {
-    "category": "ATP",
-    "competitors": "Kecmanovic, Miomir vs. Harris, Lloyd",
-    "date": "2024-07-23 14:00:00",
-    "bet_offers": [
-      { "bet_type": "Winner", "odds": [1.8, 2.02], "odds_value": ["", ""] },
-      {
-        "bet_type": "Game Handicap",
-        "odds": [2.02, 1.76],
-        "odds_value": [-1.5, 1.5]
-      },
-      {
-        "bet_type": "Total Games",
-        "odds": [1.96, 1.83],
-        "odds_value": [23.5, 23.5]
-      }
-    ],
-    "site_name": "x3000",
-    "site_link": "https://x3000.lv"
-  }
-]
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-2.5)', '2 (+2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.982, 1.699], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-2.5)', '2 (+2.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.429, 2.544], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.606, 2.126], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.774, 1.89], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.082, 1.632], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.372, 1.49], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.769, 1.896], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.896, 1.769], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (+2.5)', '2 (-2.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.967, 1.711], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.432, 2.533], 'odds_value': [19.5, 19.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.636, 2.076], 'odds_value': [20.5, 20.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [1.84, 1.82], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.157, 1.589], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 21.5', 'Under 21.5']} - {'bet_type': 'Total Games', 'odds': [2.45, 1.46], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.9, 1.9], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.911, 1.756], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.1, 1.621], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.25, 1.542], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.68, 2.09], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.8, 1.95], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.04, 1.727], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.14, 1.65], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.9, 1.9], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.911, 1.756], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.1, 1.621], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.25, 1.542], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.68, 2.09], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.8, 1.95], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.04, 1.727], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.14, 1.65], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.9, 1.9], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.911, 1.756], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.1, 1.621], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.25, 1.542], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.68, 2.09], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.8, 1.95], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.04, 1.727], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.14, 1.65], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.9, 1.9], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.911, 1.756], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.1, 1.621], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.25, 1.542], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.68, 2.09], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.8, 1.95], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.04, 1.727], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.14, 1.65], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.9, 1.9], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.911, 1.756], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.1, 1.621], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.25, 1.542], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.68, 2.09], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.8, 1.95], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.04, 1.727], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.14, 1.65], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.9, 1.9], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.911, 1.756], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.1, 1.621], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.25, 1.542], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.68, 2.09], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.8, 1.95], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.04, 1.727], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.14, 1.65], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.9, 1.9], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.911, 1.756], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.1, 1.621], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.25, 1.542], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.68, 2.09], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.8, 1.95], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.04, 1.727], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.14, 1.65], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.9, 1.9], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.911, 1.756], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.1, 1.621], 'odds_value': [-3, 3]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8, 1.9], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.25, 1.542], 'odds_value': [-3.5, 3.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.68, 2.09], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.8, 1.95], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.04, 1.727], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.14, 1.65], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.778, 1.885], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.96, 1.848], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.928, 1.742], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.036, 1.662], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.66, 2.12], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.01, 1.75], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.11, 1.666], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.778, 1.885], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.96, 1.848], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.928, 1.742], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.036, 1.662], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.66, 2.12], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.01, 1.75], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.11, 1.666], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.778, 1.885], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.96, 1.848], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.928, 1.742], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.036, 1.662], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.66, 2.12], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.01, 1.75], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.11, 1.666], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.778, 1.885], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.96, 1.848], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.928, 1.742], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.036, 1.662], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.66, 2.12], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.01, 1.75], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.11, 1.666], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.778, 1.885], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.96, 1.848], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.928, 1.742], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.036, 1.662], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.66, 2.12], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.01, 1.75], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.11, 1.666], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.778, 1.885], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.96, 1.848], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.928, 1.742], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.036, 1.662], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.66, 2.12], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.01, 1.75], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.11, 1.666], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.778, 1.885], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.96, 1.848], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.928, 1.742], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.036, 1.662], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.66, 2.12], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.01, 1.75], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.11, 1.666], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.72, 1.955], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.778, 1.885], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.96, 1.848], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.928, 1.742], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (+1.5)', '2 (-1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.036, 1.662], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.66, 2.12], 'odds_value': [21.5, 21.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [22, 22]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [1.9, 1.9], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.01, 1.75], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.8334, 1.8334], 'odds_value': ['Over 22.5', 'Under 22.5']} - {'bet_type': 'Total Games', 'odds': [2.11, 1.666], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.825, 1.835], 'odds_value': [-1.5, 1.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game handicap', 'odds': [1.8334, 1.8334], 'odds_value': ['1 (-1.5)', '2 (+1.5)']} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.93, 1.85], 'odds_value': [23.5, 23.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total games', 'odds': [1.9, 1.8], 'odds_value': ['Over 23.5', 'Under 23.5']} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+0 opportunities found in 116 that matched
+Calculating arbitrage for x3000 and spelet
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.682, 2.006], 'odds_value': [-0.5, 0.5]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.742, 1.928], 'odds_value': [-1, 1]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [1.966, 1.712], 'odds_value': [-2, 2]}
+Skipping, unmatched bet type: {'bet_type': 'Game Handicap', 'odds': [1.93, 1.85], 'odds_value': [-1.5, 1.5]} - {'bet_type': 'Game Handicap', 'odds': [2.114, 1.613], 'odds_value': [-2.5, 2.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.65, 2.14], 'odds_value': [22.5, 22.5]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.77, 1.99], 'odds_value': [23, 23]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.94, 1.81], 'odds_value': [24, 24]}
+Skipping, unmatched bet type: {'bet_type': 'Total Games', 'odds': [1.95, 1.84], 'odds_value': [23.5, 23.5]} - {'bet_type': 'Total Games', 'odds': [1.95, 1.78], 'odds_value': [24.5, 24.5]}
+0 opportunities found in 13 that matched
+Arbitrage calculation complete.
