@@ -36,52 +36,93 @@ def tonybet_tennis():
     events = []
 
     for url in urls:
-        response = requests.get(url)
-        data = response.json()
+        try:
+            response = requests.get(url)
+            data = response.json()
 
-        if data['status'] == 'ok' and 'data' in data:
-            try:
-                for event in data['data']['items']:
-                    event_id = event["id"]
-                    league_id = event["leagueId"]
-                    home_team_id = event["competitor1Id"]
-                    away_team_id = event["competitor2Id"]
-                    date = event["time"]
+            if data['status'] == 'ok' and 'data' in data:
+                try:
+                    for event in data['data']['items']:
+                        event_id = event["id"]
+                        league_id = event["leagueId"]
+                        home_team_id = event["competitor1Id"]
+                        away_team_id = event["competitor2Id"]
+                        date = event["time"]
 
-                    # Extracting odds
-                    odds = []
-                    if str(event_id) in data['data']['relations']['odds']:
-                        for outcomes in data['data']['relations']['odds'][str(event_id)]:
-                            if outcomes["id"] == 910:
-                                for outcome in outcomes["outcomes"]:
-                                    odds.append(outcome["odds"])
+                        # Extracting odds
+                        bet_offers = []
+                        if str(event_id) in data['data']['relations']['odds']:
+                            for outcomes in data['data']['relations']['odds'][str(event_id)]:
+                                try:
+                                    if outcomes["id"] == 910:
+                                        odds = []
+                                        for outcome in outcomes["outcomes"]:
+                                            odds.append(outcome["odds"])
+                                        bet_offers.append({
+                                            "bet_type": "Winner",
+                                            "odds": odds,
+                                            "odds_value": []
+                                        })
+                                    else:
+                                        odds = []
+                                        if not outcomes["specifiers"]:
+                                            continue
+                                        bet_type, odds_value = outcomes["specifiers"].split('=')
+                                        if bet_type == "total":
+                                            for outcome in outcomes["outcomes"]:
+                                                odds.append(outcome["odds"])
+                                            bet_offers.append({
+                                                "bet_type": "Total Games",
+                                                "odds": odds,
+                                                "odds_value": [f"Over {odds_value}", f"Under {odds_value}"]
+                                            })
+                                        if bet_type == "hcp":
+                                            if ":" in odds_value:
+                                                odds_value, odds_value2 = odds_value.split(":")
+                                            else:
+                                                try:
+                                                    odds_value2 = abs(float(odds_value)) if float(odds_value) < 0 else f"-{odds_value}"
+                                                except Exception:
+                                                    odds_value2 = odds_value
+                                            for outcome in outcomes["outcomes"]:
+                                                odds.append(outcome["odds"])
+                                            bet_offers.append({
+                                                "bet_type": "Handicap",
+                                                "odds": odds,
+                                                "odds_value": [odds_value, odds_value2]
+                                            })
+                                except Exception as e:
+                                    print(f"Error adding outcome: {e}")
+                        # Getting team names from competitors relations
+                        home_team = away_team = ""
+                        for competitor in data['data']['relations']['competitors']:
+                            if competitor["id"] == home_team_id:
+                                home_team = competitor["name"]
+                            elif competitor["id"] == away_team_id:
+                                away_team = competitor["name"]
 
-                    # Getting team names from competitors relations
-                    home_team = away_team = ""
-                    for competitor in data['data']['relations']['competitors']:
-                        if competitor["id"] == home_team_id:
-                            home_team = competitor["name"]
-                        if competitor["id"] == away_team_id:
-                            away_team = competitor["name"]
+                        # Getting category name from sportCategories relations
+                        category = ""
+                        for sport_category in data['data']['relations']['sportCategories']:
+                            if sport_category["id"] == event["sportCategoryId"]:
+                                category = sport_category["name"]
 
-                    # Getting category name from sportCategories relations
-                    category = ""
-                    for sport_category in data['data']['relations']['sportCategories']:
-                        if sport_category["id"] == event["sportCategoryId"]:
-                            category = sport_category["name"]
-
-                    # Append event data
-                    if odds and len(odds) >= 2:
-                        events.append({
-                            'category': category,
-                            'competitors': f"{home_team} vs. {away_team}",
-                            'date': date,
-                            'odds': odds,
-                            'site_name': site_name,
-                            'site_link': site_link
-                        })
-            except Exception:
-                continue
+                        # Append event data
+                        if len(bet_offers) > 0:
+                            events.append({
+                                'category': category,
+                                'competitors': f"{home_team} vs. {away_team}",
+                                'date': date,
+                                'bet_offers': bet_offers,
+                                'site_name': site_name,
+                                'site_link': site_link
+                            })
+                except Exception as e:
+                    print(f"error: {e}")
+                    continue
+        except Exception as e:
+            print(f"Error looping {site_name} url ({url}): {e}")
+            continue
 
     return events
 

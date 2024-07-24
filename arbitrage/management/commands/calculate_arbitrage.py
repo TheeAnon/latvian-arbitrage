@@ -22,7 +22,7 @@ class Command(BaseCommand):
         # pafbet_data = pafbet_tennis()
 
         datasets = [
-            # ('tonybet', tonybet_data),
+            ('tonybet', tonybet_data),
             ('casino777', casino777_data),
             ('x3000', x3000_data),
             ('spelet', spelet_data),
@@ -31,6 +31,9 @@ class Command(BaseCommand):
 
         # Generate all possible unique combinations of datasets
         combinations = itertools.combinations(datasets, 2)
+
+        #Inactivate existing arbitrages
+        inactivate_arbitrages()
 
         # Iterate over each combination and calculate arbitrage
         for (name1, data1), (name2, data2) in combinations:
@@ -42,33 +45,31 @@ class Command(BaseCommand):
 def calculate_arbitrage(site_one_data, site_two_data):
     arbitrages = 0
     matches = 0
-    for site_one_event in site_one_data:
-        for site_two_event in site_two_data:
-            if site_one_event["category"] in site_two_event["category"] or site_two_event["category"] in site_one_event["category"]:
-                # print(f"match {site_one_event["category"]} and {site_two_event["category"]} - {site_one_event["site_name"]} . {site_two_event["site_name"]}")
-                if normalize_match_string(site_one_event["competitors"]) == normalize_match_string(site_two_event['competitors']):
-                    # print(f"    match - {site_one_event["competitors"]} and {site_two_event["competitors"]}")
-                    matches += 1
-                    for site_one_bet_offer in site_one_event["bet_offers"]:
-                        for site_two_bet_offer in site_two_event["bet_offers"]:
-                            if site_one_bet_offer["bet_type"].lower().strip() == site_two_bet_offer["bet_type"].lower().strip():
-                                if site_one_bet_offer["bet_type"] != "Winner":
-                                    if str(site_one_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') not in str(site_two_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') or str(site_two_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') not in str(site_one_bet_offer["odds_value"][0]).replace("+", '').replace("-",''):
-                                        continue
-                                print(f"matched bet type: {site_one_bet_offer} - {site_two_bet_offer}")
-                                site_one_odds1 = Decimal(site_one_bet_offer['odds'][0])
-                                site_one_odds2 = Decimal(site_one_bet_offer['odds'][1])
-                                site_two_odds1 = Decimal(site_two_bet_offer['odds'][0])
-                                site_two_odds2 = Decimal(site_two_bet_offer['odds'][1])
+    try:
+        for site_one_event in site_one_data:
+            for site_two_event in site_two_data:
+                if site_one_event["category"] in site_two_event["category"] or site_two_event["category"] in site_one_event["category"]:
+                    # print(f"match {site_one_event["category"]} and {site_two_event["category"]} - {site_one_event["site_name"]} . {site_two_event["site_name"]}")
+                    if normalize_match_string(site_one_event["competitors"]) == normalize_match_string(site_two_event['competitors']):
+                        # print(f"    match - {site_one_event["competitors"]} and {site_two_event["competitors"]}")
+                        matches += 1
+                        for site_one_bet_offer in site_one_event["bet_offers"]:
+                            for site_two_bet_offer in site_two_event["bet_offers"]:
+                                if site_one_bet_offer["bet_type"].lower().strip() == site_two_bet_offer["bet_type"].lower().strip():
+                                    if site_one_bet_offer["bet_type"] != "Winner":
+                                        if str(site_one_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') not in str(site_two_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') or str(site_two_bet_offer["odds_value"][0]).replace("+", '').replace("-",'') not in str(site_one_bet_offer["odds_value"][0]).replace("+", '').replace("-",''):
+                                            continue
+                                    # print(f"matched bet type: {site_one_bet_offer} - {site_two_bet_offer}")
+                                    site_one_odds1 = Decimal(site_one_bet_offer['odds'][0])
+                                    site_one_odds2 = Decimal(site_one_bet_offer['odds'][1])
+                                    site_two_odds1 = Decimal(site_two_bet_offer['odds'][0])
+                                    site_two_odds2 = Decimal(site_two_bet_offer['odds'][1])
 
 
-                                # Check both combinations
-                                profit1 = calculate_arbitrage_profit(site_one_odds1, site_two_odds2)
-                                profit2 = calculate_arbitrage_profit(site_two_odds1, site_one_odds2)
-
-                                if profit1 is not None and profit2 is not None:
+                                    # Check both combinations
                                     found = False
-                                    if profit1 < 0:
+                                    profit1 = calculate_arbitrage_profit(site_one_odds1, site_two_odds2)
+                                    if profit1:
                                         sides = ["1", "2"]
                                         if site_one_bet_offer["bet_type"] != "Winner":
                                             sides = [site_one_bet_offer["odds_value"][0], site_two_bet_offer["odds_value"][1]]
@@ -79,10 +80,12 @@ def calculate_arbitrage(site_one_data, site_two_data):
                                         site_two_name = str(site_two_event["site_name"])
                                         site_two_link = str(site_two_event["site_link"])
                                         found = True
-                                    if profit2 < 0:
+
+                                    profit2 = calculate_arbitrage_profit(site_two_odds1, site_one_odds2)
+                                    if profit2:
                                         sides = ["2", "1"]
                                         if site_one_bet_offer["bet_type"] != "Winner":
-                                            sides = [site_one_bet_offer["odds_value"][1], site_two_bet_offer["odds_value"][0]]
+                                                sides = [site_one_bet_offer["odds_value"][1], site_two_bet_offer["odds_value"][0]]
                                         site_one_odds = round(site_two_odds2, 2)
                                         site_two_odds = round(site_one_odds1, 2)
                                         site_one_name = str(site_two_event["site_name"])
@@ -106,20 +109,34 @@ def calculate_arbitrage(site_one_data, site_two_data):
                                         })
                                         arbitrages = arbitrages+1
                                         if result:
-                                            print("Arbitrage posted successfully:", result)
+                                            print(f"Arbitrage posted successfully: {result}")
                                         else:
                                             print("Failed to post data.")
-                # else:
-                #     print(f"    no match - {site_one_event["competitors"]} and {site_two_event["competitors"]}")
+                    # else:
+                    #     print(f"    no match - {site_one_event["competitors"]} and {site_two_event["competitors"]}")
+    except Exception as e:
+        print(f"Error occurred: {e}")
     print(f"{arbitrages} opportunities found in {matches} that matched")
 
 
 def calculate_arbitrage_profit(odds_one, odds_two):
     try:
-        return (1 / odds_one + 1 / odds_two) - 1
+        total_implied_probability = (1 / float(odds_one)) + (1 / float(odds_two))
+        if total_implied_probability < 1:
+            return True
+        return False
     except Exception as e:
         print(f"Could not calculate arbitrage profit: {e}")
-        return None
+        return False
+
+
+def inactivate_arbitrages():
+    # Mark all existing entries in the database as inactive and set their ended timestamp
+    existing_entries = ArbitrageOpportunity.objects.filter(active=True)
+    for entry in existing_entries:
+        entry.active = False
+        entry.ended = timezone.now()
+        entry.save()
 
 
 def post_arbitrage(data):
@@ -131,13 +148,6 @@ def post_arbitrage(data):
         site_one_odds = data["site_one_odds"]
         site_two_odds = data["site_two_odds"]
         sides = data["sides"]
-
-        # Mark all existing entries in the database as inactive and set their ended timestamp
-        existing_entries = ArbitrageOpportunity.objects.filter(active=True)
-        for entry in existing_entries:
-            entry.active = False
-            entry.ended = timezone.now()
-            entry.save()
 
         # Check if the new entry already exists in the database
         try:
@@ -190,6 +200,9 @@ def normalize_team_string(s):
     return ' '.join(players)
 
 def normalize_match_string(match):
-    teams = match.split(" vs. ")
-    normalized_teams = [normalize_team_string(team) for team in teams]
-    return " vs. ".join(sorted(normalized_teams))
+    try:
+        teams = match.split(" vs. ")
+        normalized_teams = [normalize_team_string(team) for team in teams]
+        return " vs. ".join(sorted(normalized_teams))
+    except Exception as e:
+        print(f"Error normalizing string: {e}")
