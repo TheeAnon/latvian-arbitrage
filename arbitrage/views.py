@@ -25,11 +25,12 @@ def get_inactive_arbitrages(request):
     serializer = ArbitrageOpportunitySerializer(arbitrages, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
+# Delete an arbitrage
 @api_view(["DELETE"])
 def delete_arbitrage(request, id):
     try:
         arbitrage_opportunity = ArbitrageOpportunity.objects.get(pk=id)
         arbitrage_opportunity.delete()
-        return Response(status=status.HTTP_201_NOT_FOUND)
+        return Response(status=status.HTTP_204_NO_CONTENT)
     except ArbitrageOpportunity.DoesNotExist:
-        return Response(status=status.HTTP_201_NOT_FOUND)
+        return Response(status=status.HTTP_404_NOT_FOUND)
